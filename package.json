@@ -1,0 +1,52 @@
+{
+  "name": "react-yearly-heatmap",
+  "version": "1.0.0",
+  "description": "A React component for displaying yearly activity heatmap",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "clean": "rimraf dist",
+    "example": "vite example",
+    "build:example": "vite build example"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "postcss": "^8.4.32",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.1",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10"
+  },
+  "keywords": [
+    "react",
+    "heatmap",
+    "calendar",
+    "activity"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/react-tooltip": "^1.1.6"
+  }
+}
