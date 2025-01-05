@@ -2,6 +2,9 @@
 
 A React component for displaying a yearly activity heatmap, similar to GitHub's contribution graph.
 
+https://github.com/user-attachments/assets/f60c1a6a-45ba-4da4-b414-873d8b7da3aa
+
+
 ## Usage
 
 ```tsx
